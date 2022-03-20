@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83D0EE7D27E729990068B90B /* JyankenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D0EE7C27E729990068B90B /* JyankenApp.swift */; };
+		83D0EE7F27E729990068B90B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D0EE7E27E729990068B90B /* ContentView.swift */; };
+		83D0EE8127E7299B0068B90B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D0EE8027E7299B0068B90B /* Assets.xcassets */; };
+		83D0EE8427E7299B0068B90B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D0EE8327E7299B0068B90B /* Preview Assets.xcassets */; };
+		83D0EE8E27E7299B0068B90B /* JyankenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D0EE8D27E7299B0068B90B /* JyankenTests.swift */; };
+		83D0EE9827E7299B0068B90B /* JyankenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D0EE9727E7299B0068B90B /* JyankenUITests.swift */; };
+		83D0EE9A27E7299B0068B90B /* JyankenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D0EE9927E7299B0068B90B /* JyankenUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83D0EE8A27E7299B0068B90B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83D0EE7127E729990068B90B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83D0EE7827E729990068B90B;
+			remoteInfo = Jyanken;
+		};
+		83D0EE9427E7299B0068B90B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83D0EE7127E729990068B90B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83D0EE7827E729990068B90B;
+			remoteInfo = Jyanken;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83D0EE7927E729990068B90B /* Jyanken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jyanken.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D0EE7C27E729990068B90B /* JyankenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JyankenApp.swift; sourceTree = "<group>"; };
+		83D0EE7E27E729990068B90B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		83D0EE8027E7299B0068B90B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83D0EE8327E7299B0068B90B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		83D0EE8927E7299B0068B90B /* JyankenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JyankenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D0EE8D27E7299B0068B90B /* JyankenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JyankenTests.swift; sourceTree = "<group>"; };
+		83D0EE9327E7299B0068B90B /* JyankenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JyankenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D0EE9727E7299B0068B90B /* JyankenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JyankenUITests.swift; sourceTree = "<group>"; };
+		83D0EE9927E7299B0068B90B /* JyankenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JyankenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83D0EE7627E729990068B90B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D0EE8627E7299B0068B90B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D0EE9027E7299B0068B90B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83D0EE7027E729990068B90B = {
+			isa = PBXGroup;
+			children = (
+				83D0EE7B27E729990068B90B /* Jyanken */,
+				83D0EE8C27E7299B0068B90B /* JyankenTests */,
+				83D0EE9627E7299B0068B90B /* JyankenUITests */,
+				83D0EE7A27E729990068B90B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83D0EE7A27E729990068B90B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83D0EE7927E729990068B90B /* Jyanken.app */,
+				83D0EE8927E7299B0068B90B /* JyankenTests.xctest */,
+				83D0EE9327E7299B0068B90B /* JyankenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83D0EE7B27E729990068B90B /* Jyanken */ = {
+			isa = PBXGroup;
+			children = (
+				83D0EE7C27E729990068B90B /* JyankenApp.swift */,
+				83D0EE7E27E729990068B90B /* ContentView.swift */,
+				83D0EE8027E7299B0068B90B /* Assets.xcassets */,
+				83D0EE8227E7299B0068B90B /* Preview Content */,
+			);
+			path = Jyanken;
+			sourceTree = "<group>";
+		};
+		83D0EE8227E7299B0068B90B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				83D0EE8327E7299B0068B90B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		83D0EE8C27E7299B0068B90B /* JyankenTests */ = {
+			isa = PBXGroup;
+			children = (
+				83D0EE8D27E7299B0068B90B /* JyankenTests.swift */,
+			);
+			path = JyankenTests;
+			sourceTree = "<group>";
+		};
+		83D0EE9627E7299B0068B90B /* JyankenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83D0EE9727E7299B0068B90B /* JyankenUITests.swift */,
+				83D0EE9927E7299B0068B90B /* JyankenUITestsLaunchTests.swift */,
+			);
+			path = JyankenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83D0EE7827E729990068B90B /* Jyanken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D0EE9D27E7299B0068B90B /* Build configuration list for PBXNativeTarget "Jyanken" */;
+			buildPhases = (
+				83D0EE7527E729990068B90B /* Sources */,
+				83D0EE7627E729990068B90B /* Frameworks */,
+				83D0EE7727E729990068B90B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jyanken;
+			productName = Jyanken;
+			productReference = 83D0EE7927E729990068B90B /* Jyanken.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83D0EE8827E7299B0068B90B /* JyankenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D0EEA027E7299B0068B90B /* Build configuration list for PBXNativeTarget "JyankenTests" */;
+			buildPhases = (
+				83D0EE8527E7299B0068B90B /* Sources */,
+				83D0EE8627E7299B0068B90B /* Frameworks */,
+				83D0EE8727E7299B0068B90B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83D0EE8B27E7299B0068B90B /* PBXTargetDependency */,
+			);
+			name = JyankenTests;
+			productName = JyankenTests;
+			productReference = 83D0EE8927E7299B0068B90B /* JyankenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83D0EE9227E7299B0068B90B /* JyankenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D0EEA327E7299B0068B90B /* Build configuration list for PBXNativeTarget "JyankenUITests" */;
+			buildPhases = (
+				83D0EE8F27E7299B0068B90B /* Sources */,
+				83D0EE9027E7299B0068B90B /* Frameworks */,
+				83D0EE9127E7299B0068B90B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83D0EE9527E7299B0068B90B /* PBXTargetDependency */,
+			);
+			name = JyankenUITests;
+			productName = JyankenUITests;
+			productReference = 83D0EE9327E7299B0068B90B /* JyankenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83D0EE7127E729990068B90B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					83D0EE7827E729990068B90B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					83D0EE8827E7299B0068B90B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 83D0EE7827E729990068B90B;
+					};
+					83D0EE9227E7299B0068B90B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 83D0EE7827E729990068B90B;
+					};
+				};
+			};
+			buildConfigurationList = 83D0EE7427E729990068B90B /* Build configuration list for PBXProject "Jyanken" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83D0EE7027E729990068B90B;
+			productRefGroup = 83D0EE7A27E729990068B90B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83D0EE7827E729990068B90B /* Jyanken */,
+				83D0EE8827E7299B0068B90B /* JyankenTests */,
+				83D0EE9227E7299B0068B90B /* JyankenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83D0EE7727E729990068B90B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D0EE8427E7299B0068B90B /* Preview Assets.xcassets in Resources */,
+				83D0EE8127E7299B0068B90B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D0EE8727E7299B0068B90B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D0EE9127E7299B0068B90B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83D0EE7527E729990068B90B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D0EE7F27E729990068B90B /* ContentView.swift in Sources */,
+				83D0EE7D27E729990068B90B /* JyankenApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D0EE8527E7299B0068B90B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D0EE8E27E7299B0068B90B /* JyankenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D0EE8F27E7299B0068B90B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D0EE9827E7299B0068B90B /* JyankenUITests.swift in Sources */,
+				83D0EE9A27E7299B0068B90B /* JyankenUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83D0EE8B27E7299B0068B90B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83D0EE7827E729990068B90B /* Jyanken */;
+			targetProxy = 83D0EE8A27E7299B0068B90B /* PBXContainerItemProxy */;
+		};
+		83D0EE9527E7299B0068B90B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83D0EE7827E729990068B90B /* Jyanken */;
+			targetProxy = 83D0EE9427E7299B0068B90B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		83D0EE9B27E7299B0068B90B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83D0EE9C27E7299B0068B90B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83D0EE9E27E7299B0068B90B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jyanken/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eurus.Jyanken;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83D0EE9F27E7299B0068B90B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jyanken/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eurus.Jyanken;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83D0EEA127E7299B0068B90B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eurus.JyankenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jyanken.app/Jyanken";
+			};
+			name = Debug;
+		};
+		83D0EEA227E7299B0068B90B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eurus.JyankenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jyanken.app/Jyanken";
+			};
+			name = Release;
+		};
+		83D0EEA427E7299B0068B90B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eurus.JyankenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jyanken;
+			};
+			name = Debug;
+		};
+		83D0EEA527E7299B0068B90B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eurus.JyankenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jyanken;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83D0EE7427E729990068B90B /* Build configuration list for PBXProject "Jyanken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D0EE9B27E7299B0068B90B /* Debug */,
+				83D0EE9C27E7299B0068B90B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83D0EE9D27E7299B0068B90B /* Build configuration list for PBXNativeTarget "Jyanken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D0EE9E27E7299B0068B90B /* Debug */,
+				83D0EE9F27E7299B0068B90B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83D0EEA027E7299B0068B90B /* Build configuration list for PBXNativeTarget "JyankenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D0EEA127E7299B0068B90B /* Debug */,
+				83D0EEA227E7299B0068B90B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83D0EEA327E7299B0068B90B /* Build configuration list for PBXNativeTarget "JyankenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D0EEA427E7299B0068B90B /* Debug */,
+				83D0EEA527E7299B0068B90B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83D0EE7127E729990068B90B /* Project object */;
+}
